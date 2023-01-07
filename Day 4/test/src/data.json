@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "task": "Mengerjakan Exercise",
+    "completed": true
+  },
+  {
+    "id": 2,
+    "task": "Mengerjakan Assignment",
+    "completed": false
+  }
+]
