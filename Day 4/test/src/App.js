@@ -1,11 +1,12 @@
 import React, { useState } from "react";
 //mock data
 import data from "./data.json";
-//components
 import Header from "./Header";
 import ToDoList from "./ToDoList";
 import ToDoForm from "./ToDoForm";
-import "./App.css";
+// import "./App.css";
+import Navbar from "./Navbar";
+import Registrasi from "./Registrasi";
 
 function App() {
   const [toDoList, setToDoList] = useState(data);
@@ -38,15 +39,21 @@ function App() {
   };
 
   return (
-    <div className="todo-app">
-      <Header />
-      <ToDoForm addTask={addTask} />
-      <ToDoList
-        toDoList={toDoList}
-        handleToggle={handleToggle}
-        handleDelete={handleFilter}
-      />
-    </div>
+    <>
+      <Registrasi />
+      {/* <div>
+        <Navbar />
+      </div>
+      <div className="todo-app">
+        <Header />
+        <ToDoForm addTask={addTask} />
+        <ToDoList
+          toDoList={toDoList}
+          handleToggle={handleToggle}
+          handleDelete={handleFilter}
+        />
+      </div> */}
+    </>
   );
 }
 
