@@ -1,0 +1,4 @@
+Rule 5: File internet_connection.txt berisikan hasil keluaran ping ke google.com sebanyak 3 kali.
+Answer: ping –c 3 google.com
+
+
