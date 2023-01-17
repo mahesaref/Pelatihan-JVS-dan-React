@@ -1,0 +1,3 @@
+- Metode GET dapat digunakan untuk mendapatkan data dari server. Metode ini hanya mengizinkan prosedur read-only, sehingga tidak berisiko mengubah atau merusak data dari server. 
+- Metode POST dapat digunakan untuk membuat sumber daya baru. API akan secara otomatis membuat entri/data baru di server. 
+- Metode DELETE digunakan untuk menghapus resource.
